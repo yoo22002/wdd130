@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+
+:root {
+    --paragragh-font: "Koulen";
+}
+
+img {
+    display:block;
+    width: 300px;
+    margin: 0 auto;
+}
+
+nav, a {
+    background-color: plum;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    font-style: bold;  
+}
+
+header p {
+    background-color: plum;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+h2 {
+    background-color: plum;
+    margin: 0 auto;
+}
+
+main p {
+    text-align: center;
+    font-family: var(--paragragh-font);
+    color: white;
+    font-size: 50px;
+}
+
+body {
+    background-color: plum;
+}
+
+footer {
+    
+}
