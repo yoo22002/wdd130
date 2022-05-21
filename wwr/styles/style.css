@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Roboto+Slab:wght@300&display=swap');
+
 .logo {
     width: 80px;
+}
+
+#logo_link {
+    padding-top: 5px;
 }
 
 #content {
@@ -7,10 +13,19 @@
     margin: 0 auto;
 }
 
+.home-title {
+    font-family: "Courgette", Roboto Slab, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
 nav, a {
+    text-decoration: none;
     background-color: #6e633d;
+    color: white;
     text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
 
 h1, h4 {
@@ -26,7 +41,15 @@ h1, h4 {
 }
 
 body {
+    font-family: Roboto Slab, Halvetica, sans-serif;
     background-color: #f1f5f2;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
@@ -42,11 +65,26 @@ nav a:hover {
     background-color: #f1f5f2;
     color:#14281d;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
-    background-color: #14281d;
+    background-color: #355834;
     color: #f1f5f2;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
 }
 
 #background {
@@ -56,15 +94,28 @@ nav a:hover {
 .msg {
     background-color: #355834;
     color: #f1f5f2;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.msg p {
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #6e633d;
     color: #f1f5f2;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 footer a {
-    color:#f1f5f2
+    color:#f1f5f2;
+    padding: 20px;
 }
 
 footer a:hover {
@@ -73,5 +124,6 @@ footer a:hover {
 }
 
 .icon {
-    width: 80px
+    width: 80px;
+    padding-top: 10px
 }
