@@ -44,7 +44,11 @@ nav, a {
     color: white;
     text-align: center;
     text-decoration: none;
-    padding: 35px;
+    padding: 15px;
+}
+
+.info-link {
+    font-size: small;
 }
 
 #hero-msg {
@@ -172,6 +176,30 @@ main section img {
 
 .msg p {
     padding-bottom: 15px;
+}
+
+.rivers-page {
+    text-align: center;
+}
+
+.sub-title {
+    margin: auto;
+    font-display: bold;
+}
+
+.salmon, .gray, .grand {
+    padding: 50px;
+}
+
+.river-name, .p {
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.salmon-img, .gray-img, .grand-img {
+    width: 300px;
+    height: 300px;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
 footer {
