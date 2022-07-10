@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food</title>
+    <link rel="stylesheet" href="styles/index.css">
 
 </head>
 <body>
@@ -13,36 +14,54 @@
             <a id="logo_link" href="index.html">
                 <img class="logo" src="images/eatme_logo.png" alt="Eatme Logo">
             </a>
-            <nav>
-                <a href="index.html">Home</a>
+            <nav class="topnav">
+                <a class="active" href="index.html">Home</a>
                 <a href="food.html">Food</a>
                 <a href="dessert.html">Dessert</a>
+                <div class="search-container">
+                    <form action="/action_page.php">
+                      <input type="text" placeholder="Search.." name="search">
+                      <button type="submit">Submit</button>
+                    </form>
+                  </div>
             </nav>
         </header>
         <main class="food-grid">
-            <section>
-                <img class="card-img" src="https://via.placeholder.com/150" alt="sample image">
-                <h5>food name</h5>
+            <section class="food-img">
+                <img class="food-card" src="images/chicken.jpg" alt="Chicken">
+                <h5>Fried Chicken</h5>
             </section>
-            <section>
-                <img class="card-img" src="https://via.placeholder.com/150" alt="sample image">
-                <h5>food name</h5>
+            <section class="food-img">
+                <img class="food-card" src="images/Bulgogi.jpg" alt="Bulgogi">
+                <h5>Bulgogi</h5>
             </section>
-            <section>
-                <img class="card-img" src="https://via.placeholder.com/150" alt="sample image">
-                <h5>food name</h5>
+            <section class="food-img">
+                <img class="food-card" src="images/NaengMyun.jpg" alt="NaengMyun">
+                <h5>NaengMyun</h5>
             </section>
-            <section>
-                <img class="card-img" src="https://via.placeholder.com/150" alt="sample image">
-                <h5>food name</h5>
+            <section class="food-img">
+                <img class="food-card" src="images/Kimchi.jpg" alt="Kimchi">
+                <h5>Kimchi</h5>
             </section>
-            <section>
-                <img class="card-img" src="https://via.placeholder.com/150" alt="sample image">
-                <h5>food name</h5>
+            <section class="food-img">
+                <img class="food-card" src="images/kimbab.jpg" alt="Kimbab">
+                <h5>Kimbab</h5>
             </section>
-            <section>
-                <img class="card-img" src="https://via.placeholder.com/150" alt="sample image">
-                <h5>food name</h5>
+            <section class="food-img">
+                <img class="food-card" src="images/tteokbokki.jpg" alt="Tteokbokki">
+                <h5>Tteokbokki</h5>
+            </section>
+            <section class="food-img">
+                <img class="food-card" src="images/bibimbab.jpg" alt="Bibimbab">
+                <h5>Bibimbab</h5>
+            </section>
+            <section class="food-img">
+                <img class="food-card" src="images/Korean_charcol_bbq.jpg" alt="Korean_charcol_bbq">
+                <h5>Korean BBQ</h5>
+            </section>
+            <section class="food-img">
+                <img class="food-card" src="images/samgeatang.jpg" alt="Samgeatang">
+                <h5>Samgeatang</h5>
             </section>
         </main>
         <footer>
